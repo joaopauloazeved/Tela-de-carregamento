@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Avaliação</string>
+    <string name="Iniciar_txt">Inciar</string>
+    <string name="Sair_txt">Sair</string>
+    <string name="adicionar_txt">Adicionar</string>
+    <string name="Remover_txt">Remover</string>
+    <string name="Concluir_txt">Concluir</string>
+</resources>
