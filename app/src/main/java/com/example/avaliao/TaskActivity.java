@@ -36,13 +36,13 @@ public class TaskActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.Button_adicionar) {
-            if (numberOfTasks < 10) {
+            if (numberOfTasks < 25) {
                 numberOfTasks++;
                 progressView.setMaxValue(numberOfTasks);
                 progressView.setProgress(concluidas);
                 Toast.makeText(this, "Total de tarefas: " + numberOfTasks, Toast.LENGTH_LONG).show();
             } else {
-                Toast.makeText(this, "Limite de 10 tarefas atingido", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "Limite de 25 tarefas atingido", Toast.LENGTH_LONG).show();
             }
         } else if (v.getId() == R.id.Button_remover) {
             if (numberOfTasks > concluidas) {

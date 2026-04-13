@@ -27,7 +27,7 @@ public class ProgressView extends View {
             progressColor = a.getColor(R.styleable.ProgressViewAttributes_progressColor, Color.GREEN);
             trackColor = a.getColor(R.styleable.ProgressViewAttributes_trackColor, Color.LTGRAY);
             textColor = a.getColor(R.styleable.ProgressViewAttributes_textColor, Color.BLACK);
-            maxValue = a.getInt(R.styleable.ProgressViewAttributes_maxValue, 10);
+            maxValue = a.getInt(R.styleable.ProgressViewAttributes_maxValue, 25);
             progress = a.getInt(R.styleable.ProgressViewAttributes_progress, 0);
             titleText = a.getString(R.styleable.ProgressViewAttributes_titleText);
             if (titleText == null) titleText = "Progresso";
